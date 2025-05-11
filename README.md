@@ -1,6 +1,7 @@
 # Cloud Cost Estimator 💸☁️
 
-A beginner-friendly Python tool that estimates monthly AWS cloud costs based on EC2, S3, and Lambda usage. Built as part of my Python learning journey to reinforce logic, modular programming, and real-world cloud scenarios.
+A beginner-friendly Python tool that estimates monthly AWS cloud costs based on EC2, S3, and Lambda usage. Built as part of my Python learning journey to reinforce logic, modular programming, real-world cloud scenarios, and now with an interactive **colorful UI**!
+
 
 ## 🔧 Features
 
@@ -10,6 +11,7 @@ A beginner-friendly Python tool that estimates monthly AWS cloud costs based on 
 - Dual-mode support:
   - Test mode for sandboxed environments
   - Interactive input mode for real users
+  - **New UI**: Added a colorful, user-friendly **Tkinter** interface with ASCII text art using **PyFiglet** for a creative touch 🎨
 
 ## 🚀 Getting Started
 
