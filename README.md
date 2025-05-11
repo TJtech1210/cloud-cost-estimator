@@ -38,14 +38,12 @@ Both versions allow you to switch between test mode and user input mode:
 
 Test Mode (default for both versions):
 
-python
-copy
-ec2_count, s3_count, lambda_count = get_usage_data_test()
+
+- ec2_count, s3_count, lambda_count = get_usage_data_test()
 User Input Mode (local only):
 
-python
-Copy
-ec2_count, s3_count, lambda_count = get_usage_data()
+
+- ec2_count, s3_count, lambda_count = get_usage_data()
 ✅ Requirements
 Python 3.6+
 
