@@ -16,39 +16,38 @@ A beginner-friendly Python tool that estimates monthly AWS cloud costs based on 
 
 ## 🚀 Getting Started
 
-1. Clone this repo:
+1. **Clone this repo**:
    
+   ```bash
    git clone https://github.com/TJtech1210/cloud-cost-estimator.git
    cd cloud-cost-estimator
-
 Choose a Version to Run:
 
-  Run the Console Version (Without UI):
+Run the Console Version (Without UI):
+If you prefer to run the console version without the UI, use:
 
-  If you prefer to run the console version without the UI, use:
-
+bash
+Copy
 python3 'Cloud Cost Estimator - Phase 1.py'
+Run the UI Version (With Tkinter UI):
+If you'd like to run the version with the colorful Tkinter UI, use:
 
-  Run the UI Version (With Tkinter UI):
-
-  If you'd like to run the version with the colorful Tkinter UI, use:
-
+bash
+Copy
 python3 cloud_cost_estimator_gui.py
-
-
 Switch between test mode and user input mode:
-
 Both versions allow you to switch between test mode and user input mode:
 
 Test Mode (default for both versions):
 
-  ec2_count, s3_count, lambda_count = get_usage_data_test()
-
+python
+Copy
+ec2_count, s3_count, lambda_count = get_usage_data_test()
 User Input Mode (local only):
 
-  ec2_count, s3_count, lambda_count = get_usage_data()
-
-
+python
+Copy
+ec2_count, s3_count, lambda_count = get_usage_data()
 ✅ Requirements
 Python 3.6+
 
