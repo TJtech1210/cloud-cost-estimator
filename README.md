@@ -23,17 +23,18 @@ A beginner-friendly Python tool that estimates monthly AWS cloud costs based on 
 
 Choose a Version to Run:
 
-Run the Console Version (Without UI):
+  Run the Console Version (Without UI):
 
-If you prefer to run the console version without the UI, use:
+  If you prefer to run the console version without the UI, use:
 
 python3 'Cloud Cost Estimator - Phase 1.py'
 
-Run the UI Version (With Tkinter UI):
+  Run the UI Version (With Tkinter UI):
 
-If you'd like to run the version with the colorful Tkinter UI, use:
+  If you'd like to run the version with the colorful Tkinter UI, use:
 
 python3 cloud_cost_estimator_gui.py
+
 
 Switch between test mode and user input mode:
 
@@ -41,11 +42,11 @@ Both versions allow you to switch between test mode and user input mode:
 
 Test Mode (default for both versions):
 
-ec2_count, s3_count, lambda_count = get_usage_data_test()
+  ec2_count, s3_count, lambda_count = get_usage_data_test()
 
 User Input Mode (local only):
 
-ec2_count, s3_count, lambda_count = get_usage_data()
+  ec2_count, s3_count, lambda_count = get_usage_data()
 
 
 ✅ Requirements
