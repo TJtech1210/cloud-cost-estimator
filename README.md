@@ -21,8 +21,7 @@ A beginner-friendly Python tool that estimates monthly AWS cloud costs based on 
 
 2. Run the script:
 
-   
-   python cloud_cost_estimator.py
+   'Cloud Cost Estimator - Phase 1.py'
    
 
 3. To switch between test mode and user input:
