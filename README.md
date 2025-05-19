@@ -1,8 +1,8 @@
-# Cloud Cost Estimator 💸☁️
+# Cloud SpendGuard 💸☁️
 
 A beginner-friendly Python tool that estimates monthly AWS cloud costs based on EC2, S3, and Lambda usage. Built as part of my Python learning journey to reinforce logic, modular programming, real-world cloud scenarios, and now with an interactive **colorful UI**!
 
-![Cloud Cost Estimator UI](https://github.com/TJtech1210/cloud-cost-estimator/blob/main/pictures/cloud_cost_estimatore%20phase%201%20image.png)
+![Cloud SpendGuard UI](https://github.com/TJtech1210/cloud-cost-estimator/blob/main/pictures/cloud_cost_estimatore%20phase%201%20image.png)
 
 ## 🔧 Features
 
